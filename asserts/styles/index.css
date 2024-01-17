@@ -1,0 +1,382 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: #000;
+    padding-top: 21px;
+    font-family: Roboto;
+}
+
+/*!Header*/
+
+header{
+    width: 100;
+    display: flex;
+    padding-left: 121px;
+    flex-direction: column;
+    background: #FFF;
+}
+
+header .section-2{
+    width: 62vh;
+    display: flex;
+    padding-top: 97px;
+}
+
+header .section-2 img{
+    width: 22px;
+    height: 22px;
+    margin-right: 14px;
+}
+
+header .section-2 .t1{
+    display: inline-block;
+    width: 130px;
+    height: 32px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 115%;
+}
+
+header .section-3{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 29px;
+}
+
+header .section-3 .left .t1{
+    width: 628px;
+    height: 190px;
+    color: #000;
+    font-family: Roboto Slab;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 101.385%;
+}
+
+header .section-3 .left .t2{
+    width: 414px;
+    height: 62px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+header .section-3 .right img{
+    margin-right: 17vh;
+}
+
+header .section-4{
+    margin-top: 170px;
+    padding-top: 19px;
+    padding-left: 26px;
+    width: 483.635px;
+    height: 200px;
+    border-radius: 5px;
+    background: #1E4681;
+    margin-left: 28vh;
+}
+
+header .section-4 .t1{
+    color: #FFF;
+    font-family: Roboto Slab;
+    font-size: 25px;
+    font-weight: 400;
+    height: 113px;
+}
+
+header .section-4 .t2{
+    height: 45.641px;
+    color: #FFF;
+    text-align: right;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 130%;
+    margin-right: 14px;
+}
+
+header .section-5{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 173px;
+}
+
+header .section-5 .left .t1{
+    font-family: Roboto Slab;
+    font-size: 55px;
+    font-weight: 700;
+}
+
+header .section-5 .left .t2{
+    margin-top: 72px;
+    width: 662px;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+header .section-5 .right{
+    margin-right: 11vh;
+    margin-top: 172px;
+}
+
+/*!Header End*/
+
+/*!Main*/
+
+main{
+    padding-left: 121px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 94px;
+    background: #FFF;
+}
+
+main .section-1{
+    display: flex;
+}
+
+main .section-1 .right{
+    display: flex;
+    gap: 95px;
+    margin-left: 132px;
+}
+
+main .section-1 .right .t1{
+    height: 39px;
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+main .section-1 .right .t2{
+    width: 150px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+main .section-2 .t1{
+    height: 93px;
+    width: 600px;
+    margin-top: 178px;
+    font-family: Roboto Slab;
+    font-size: 55px;
+    font-weight: 700;
+}
+
+main .section-3{
+    margin-top: 90px;
+    display: flex;
+    gap: 122px;
+}
+
+main .section-3 .t1{
+    color: #1E4681;
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+main .section-3 .t2{
+    width: 223px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+main .section-3 .item-1 .t2{
+    width: 350px;
+}
+
+main .section-3 .item-2 .t2{
+    width: 271px;
+}
+
+main .section-3 .item-3 .t2{
+    width: 245px;
+}
+
+main .section-4 .t1{
+    width: 40vh;
+    margin-top: 179px;
+    font-family: Roboto Slab;
+    font-size: 55px;
+    font-weight: 700;
+}
+
+main .section-5{
+    margin-top: 20px;
+}
+
+main .section-5 .t1{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+main .section-5 ul{
+    width: 80vh;
+}
+
+main .section-6 .t1{
+    margin-top: 240px;
+    color: #000;
+    font-family: Roboto Slab;
+    font-size: 55px;
+    font-weight: 700;
+}
+
+main .section-7{
+    margin-top: 95px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 37px;
+    padding-bottom: 121px;
+}
+
+main .section-7 div{
+    width: 399px;
+    height: 328px;
+    border-radius: 30px;
+    background: #FFF;
+    padding-bottom: 23px;
+    box-shadow: 1px 1px 15px 0px rgba(0, 0, 0, 0.25);
+}
+
+main .section-7 .t1{
+    line-height: 97%;
+    margin-top: 11px;
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+main .section-7 .t2{
+    margin-top: 32px;
+    margin-left: 19px;
+    font-size: 23px;
+    font-weight: 400;
+}
+
+main .section-7 .item-8 .t2{
+    margin-top: -10px;
+}
+
+/*!Main End*/
+
+footer .section-1{
+    height: 780px;
+    padding-left: 121px;
+    padding-top: 91px;
+    background: #EFEFEF;
+}
+
+footer .section-1 .t1{
+    font-family: Roboto Slab;
+    font-size: 55px;
+    height: 93px;
+    font-weight: 700;
+    line-height: 101.385%;
+}
+
+footer .section-1 .card{
+    margin-top: 34px;
+    border-radius: 30px;
+    background: #FFF;
+    box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0.25);
+    width: 791px;
+    height: 451px;
+}
+
+footer .section-1 .card .t1{
+    line-height: 150%; 
+    margin-left: 45px;
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: 400;
+    height: 203px;
+}
+
+footer .section-1 .card .lower-section{
+    display: flex;
+    gap: 30px;
+}
+
+footer .section-1 .card .lower-section .left img{
+    width: 190px;
+    height: 169px;
+}
+
+footer .section-1 .card .lower-section .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer .section-1 .card .lower-section .right .name{
+    font-family: Roboto Slab;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 101.385%;
+}
+
+footer .section-1 .card .lower-section .right img{
+    width: 32px;
+    height: 31px;
+}
+
+footer .section-2{
+    height: 780px;
+    background: #9DC9C8;
+    padding-top: 179px;
+    padding-left: 122px;
+}
+
+footer .section-2 .t1{
+    font-family: Roboto Slab;
+    font-size: 55px;
+    font-weight: 700;
+}
+
+footer .section-2 .t2{
+    margin-top: 54px;
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+footer .section-2 .t3{
+    font-family: Roboto;
+    font-size: 80px;
+    font-weight: 400;
+}
+
+footer .section-2 .lower-section{
+    margin-top: 100px;
+    display:  flex;
+    gap: 70px;
+}
+
+footer .section-2 .lower-section .t1{
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+footer .section-2 .lower-section .t2{
+    margin-top: 9px;
+    line-height: 101.385%;
+    width: 294px;
+    height: 70px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+footer .section-3{
+    background: #000;
+    height: 225.875px;
+}
