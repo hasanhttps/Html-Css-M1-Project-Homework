@@ -377,6 +377,51 @@ footer .section-2 .lower-section .t2{
 }
 
 footer .section-3{
+    padding-left: 121px;
+    padding-top: 50px;
     background: #000;
-    height: 225.875px;
+    height: 390px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .section-3 .right{
+    margin-right: 185px;
+}
+
+footer .section-3 .left img{
+    width: 115px;
+}
+
+footer .section-3 .left .social-media-section{
+    display: flex;
+    gap: 18px;
+    margin-top: 30px;
+}
+
+footer .section-3 .left .social-media-section img{
+    height: 33px;
+    width: 33px;
+}
+
+footer .section-3 .left .t1{
+    color: #FFF;
+    margin-top: 146px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 101.385%;
+}
+
+footer .section-3 .right img{
+    width: 27px;
+}
+
+footer .section-3 .right .phone-text{
+    margin-left: 22px;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 101.385%;
+    display: inline-block;
 }
